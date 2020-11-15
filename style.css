@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    
+    background: linear-gradient(to right,#780206,#061161);
+    background-repeat: repeat;
+    background-size: cover;
+    font-size: 2rem;;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 0;
+    min-height: 100vh;
+    
+  
+    
+   
+}
+
+button{
+    border: 2px solid rgb(123, 123, 223);
+    margin: 5px;
+    padding: 5px 20px;
+    opacity: 0.6;
+    font-size: 1.5rem;
+    
+    cursor:pointer;
+    border-radius: 10px;
+    font-family: 'Modak', cursive;
+    background:linear-gradient(to right,#70e1f5,#ffd194);
+}
+
+button:hover{
+    background:linear-gradient(to right,#FC354C,#0ABFBC);
+}
